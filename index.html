@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Growth Hub | Studio Hub</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Growth Hub home">
+        <span class="brand-mark">GH</span>
+        <span>Growth Hub</span>
+      </a>
+
+      <div class="lang-switch" aria-label="Language selector">
+        <button class="active" type="button" data-lang="en">EN</button>
+        <button type="button" data-lang="es">ES</button>
+        <button type="button" data-lang="ru">RU</button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="intro glass">
+        <div>
+          <p class="eyebrow" data-i18n="introEyebrow">Studio growth center</p>
+          <h1 data-i18n="introTitle">Where studios grow, monitors earn, and models get traffic.</h1>
+        </div>
+        <p data-i18n="introText">Complete simple studio tasks, claim verified rewards, and help your models join the right growth opportunities.</p>
+      </section>
+
+      <div class="main-layout">
+        <section class="tasks-panel glass" aria-labelledby="tasks-title">
+          <div class="section-head">
+            <p class="eyebrow" data-i18n="tasksEyebrow">Tasks + rewards</p>
+            <h2 id="tasks-title" data-i18n="tasksTitle">Pick a task. Complete it. Claim the reward.</h2>
+          </div>
+
+          <div class="task-list">
+            <article class="task-card">
+              <img src="./assets/studio-hub-models.jpg" alt="" loading="lazy">
+              <div class="task-copy">
+                <span class="tag" data-i18n="alwaysAvailable">Always available</span>
+                <h3 data-i18n="taskOneTitle">Add Models to Studio Hub</h3>
+                <p><strong data-i18n="whatToDo">What to do:</strong> <span data-i18n="taskOneDo">Add and link your models to Studio Hub.</span></p>
+                <p><strong data-i18n="reward">Reward:</strong> <span data-i18n="taskOneReward">1 week promo traffic for each eligible model.</span></p>
+                <small data-i18n="taskOneNote">Claim after adding models. We verify valid linked accounts before sending traffic.</small>
+                <button class="button primary task-button" type="button" data-message-key="claimTraffic" data-i18n="claimTraffic">Claim Traffic Reward</button>
+              </div>
+            </article>
+
+            <article class="task-card compact">
+              <img src="./assets/kick-off-challenge.jpg" alt="" loading="lazy">
+              <div class="task-copy">
+                <span class="tag blue" data-i18n="eventTask">Event task</span>
+                <h3 data-i18n="taskTwoTitle">Kick-Off Challenge</h3>
+                <p><strong data-i18n="whatToDo2">What to do:</strong> <span data-i18n="taskTwoDo">Add eligible models to this month’s event.</span></p>
+                <p><strong data-i18n="reward2">Reward:</strong> <span data-i18n="taskTwoReward">5 Monitor Wallet coins + special event traffic.</span></p>
+                <button class="button secondary task-button" type="button" data-message-key="eventPlaza" data-i18n="eventPlaza">Add Models in Event Plaza</button>
+              </div>
+            </article>
+
+            <article class="task-card compact no-image">
+              <div class="task-symbol" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="task-copy">
+                <span class="tag pink" data-i18n="smartMove">Smart move</span>
+                <h3 data-i18n="taskThreeTitle">Boost Active Models</h3>
+                <p><strong data-i18n="whatToDo3">What to do:</strong> <span data-i18n="taskThreeDo">Recommend active models with low income for traffic opportunities.</span></p>
+                <p><strong data-i18n="reward3">Reward:</strong> <span data-i18n="taskThreeReward">Rising Star or Kick-Off Challenge traffic eligibility.</span></p>
+                <button class="button secondary task-button" type="button" data-message-key="recommend" data-i18n="recommend">View Recommendations</button>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <aside class="league glass" aria-labelledby="league-title">
+          <p class="eyebrow" data-i18n="leagueEyebrow">This month</p>
+          <h2 id="league-title" data-i18n="leagueTitle">Top 5 Studios</h2>
+          <ol>
+            <li><span>Estrella Studio</span><b>12.4k</b></li>
+            <li><span>NovaCam House</span><b>10.9k</b></li>
+            <li><span>Andes Live</span><b>9.7k</b></li>
+            <li><span>Velvet Stream</span><b>8.4k</b></li>
+            <li><span>Luna Studio</span><b>7.9k</b></li>
+          </ol>
+          <p class="league-note" data-i18n="leagueNote">Chosen by verified model adds, completed tasks, event participation, and rewards claimed.</p>
+        </aside>
+      </div>
+
+      <section class="tips glass" aria-labelledby="tips-title">
+        <div class="section-head slim">
+          <p class="eyebrow" data-i18n="tipsEyebrow">Tips + community</p>
+          <h2 id="tips-title" data-i18n="tipsTitle">Quick moves from Lovense</h2>
+        </div>
+
+        <div class="tip-grid">
+          <article class="tip-card">
+            <img src="./assets/rising-star.jpg" alt="" loading="lazy">
+            <div>
+              <h3 data-i18n="tipOneTitle">Rising Star for new models</h3>
+              <p data-i18n="tipOneText">Beginner models can get extra Vibemate exposure through selected control links each month.</p>
+              <button class="button secondary task-button" type="button" data-message-key="eventPlaza" data-i18n="eventPlaza2">Add Models in Event Plaza</button>
+            </div>
+          </article>
+
+          <article class="tip-card text-only">
+            <h3 data-i18n="tipTwoTitle">Invited but not fully linked?</h3>
+            <p data-i18n="tipTwoText">Connect invited accounts to camsite accounts so they officially join your studio and show data in Studio Hub.</p>
+          </article>
+
+          <a class="tip-card text-only clickable" href="https://www.cam101.com/coursesView/list" target="_blank" rel="noopener">
+            <h3 data-i18n="tipThreeTitle">Keep learning fresh</h3>
+            <p data-i18n="tipThreeText">Use Cam101 courses for quick training ideas your monitors can share with models.</p>
+            <span data-i18n="openCam101">Open Cam101</span>
+          </a>
+        </div>
+
+        <div class="community">
+          <p data-i18n="communityText">Questions from Colombian studios?</p>
+          <a class="button primary" href="https://chat.whatsapp.com/FpN4wr9LSjZBDQLpmyTzNH" target="_blank" rel="noopener" data-i18n="whatsapp">Join WhatsApp Group</a>
+        </div>
+      </section>
+
+      <section class="reviews" aria-label="Studio reviews">
+        <div class="marquee">
+          <div class="marquee-track">
+            <span data-i18n="reviewOne">“Now we know which models are ready for events.”</span>
+            <span data-i18n="reviewTwo">“Studio Hub nos ayuda a no perder oportunidades de tráfico.”</span>
+            <span data-i18n="reviewThree">“The rewards make tasks easier to track.”</span>
+            <span data-i18n="reviewFour">“Ahora sabemos qué hacer primero.”</span>
+            <span data-i18n="reviewFive">“Good for keeping monitors active without pushing too hard.”</span>
+            <span data-i18n="reviewSix">“Las modelos nuevas reciben más ayuda desde el primer mes.”</span>
+          </div>
+          <div class="marquee-track" aria-hidden="true">
+            <span>“Now we know which models are ready for events.”</span>
+            <span>“Studio Hub nos ayuda a no perder oportunidades de tráfico.”</span>
+            <span>“The rewards make tasks easier to track.”</span>
+            <span>“Ahora sabemos qué hacer primero.”</span>
+            <span>“Good for keeping monitors active without pushing too hard.”</span>
+            <span>“Las modelos nuevas reciben más ayuda desde el primer mes.”</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p data-i18n="footer">Rewards are reviewed based on eligible account activity, Studio Hub linking status, and campaign rules.</p>
+    </footer>
+  </div>
+
+  <div class="popup" id="popup" role="status" aria-live="polite" aria-hidden="true"></div>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
